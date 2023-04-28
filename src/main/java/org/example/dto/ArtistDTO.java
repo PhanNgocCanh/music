@@ -7,9 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public class AccountDTO {
-    public long accountId;
-    public String fullName;
-    public String password;
-    public int status;
+public class ArtistDTO {
+    private long artistId;
+    private String artistName;
 }
